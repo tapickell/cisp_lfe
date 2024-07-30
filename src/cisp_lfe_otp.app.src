@@ -1,0 +1,15 @@
+{application, 'cisp_lfe_otp', [
+    {description, "An LFE application"},
+    {vsn, git},
+    {registered, []},
+    {mod, {'cisp_lfe_otp-app', []}},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env,[]},
+    {modules, []},
+
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+ ]}.
